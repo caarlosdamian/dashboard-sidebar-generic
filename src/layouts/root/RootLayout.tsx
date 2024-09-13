@@ -8,7 +8,7 @@ export const RootLayout = () => {
     <main className="flex h-screen w-screen font-poppins">
       <SidebarContextProvider>
         <Sidebar />
-        <section className="basis-full bg-white">
+        <section className="basis-full bg-white lg:px-14">
           <Header />
           <Outlet />
         </section>
